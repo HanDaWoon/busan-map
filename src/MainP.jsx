@@ -78,12 +78,13 @@ export default function MainP() {
           <div className="sidebar-search">
             <input
               type="text"
+              placeholder="search..."
               onChange={(e) => setSearch(e.target.value)}
               value={target_t}
             />
             <button
               type="button"
-              className="btn btn-search"
+              className="btn-search"
               onClick={handleSearch}
             >
               검색

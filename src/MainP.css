@@ -28,3 +28,10 @@ body {
 .sidebar .sidebar-body-item:hover {
   background-color: #eee;
 }
+.sidebar .sidebar-search input {
+  padding: 8px;
+  width: 70%;
+}
+.sidebar .sidebar-search .btn-search {
+  padding: 4px;
+}
