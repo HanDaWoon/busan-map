@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.sidebar .sidebar-header {
+  text-align: center;
+  background-color: black;
+  padding: 8px;
+}
+.sidebar .sidebar-title {
+  display: block;
+  padding: 8px;
+  font-size: 1.2em;
+  background-color: #333;
+  color: #eee;
+  box-shadow: 0 0 3px black;
+}
+.sidebar .sidebar-body {
+  overflow-y: scroll;
+  max-height: calc(100vh - 90px);
+}
+.sidebar .sidebar-body-item {
+  padding: 8px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+.sidebar .sidebar-body-item:hover {
+  background-color: #eee;
+}
