@@ -7,7 +7,7 @@ import urllib.request
 config = {
     "DEBUG": True,          # some Flask specific configs
     "CACHE_TYPE": "SimpleCache", # Flask-Caching related configs
-    "CACHE_DEFAULT_TIMEOUT": 500
+    "CACHE_DEFAULT_TIMEOUT": 5000
 }
 
 app = Flask(__name__)

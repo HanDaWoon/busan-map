@@ -93,7 +93,7 @@ export default function MainP() {
           <div className="sidebar-body" ref={side_bar_body}>
             {foodData2.map((x) => {
               return (
-                <li
+                <div
                   key={x.key}
                   className="sidebar-body-item"
                   onClick={() => {
@@ -108,7 +108,7 @@ export default function MainP() {
                   }}
                 >
                   {x.title}
-                </li>
+                </div>
               );
             })}
           </div>
